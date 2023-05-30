@@ -1,16 +1,12 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import RubberBand from "react-reveal/RubberBand";
 import Section from "../../components/Section";
-import Button from "../../components/Button";
 import Title from "../../components/Title";
 import styles from "./styles.module.scss";
 import { detectMobile } from "../../utils";
 import Back from "../../components/BackHome";
 
 const isMobile = detectMobile();
-const emailStr =
-  "mailto:haixiang6123@gmail.com?subject=想说啥就说啥吧&body=大胆说出你的想法~";
 
 const Contact = () => (
   <Section
