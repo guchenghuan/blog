@@ -1,0 +1,31 @@
+.leftCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  border: 0;
+  width: 140px;
+  height: 160px;
+  color: rgb(255, 255, 255);
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  // box-shadow: rgba(0, 0, 0, 0.15) 0px 35px 80px;
+  a {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, serif, 宋体;
+    padding-left: 5px;
+    padding: 7px 5px;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Georgia, serif, 宋体;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.06);
+      color: #1677ff;
+    }
+  }
+}
