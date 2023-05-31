@@ -45,7 +45,16 @@ figure.snip1477 .btn {
   padding: 5px 10px 10px;
   cursor: pointer;
 }
-
+@media screen and (max-width: 992px) {
+  figure.snip1477 .btn {
+    z-index: 999;
+    position: absolute;
+    top: 10%;
+    right: 25px;
+    padding: 5px 10px 10px;
+    cursor: pointer;
+  }
+}
 figure.snip1477 .title:before,
 figure.snip1477 .title:after {
   opacity: 0;
@@ -155,4 +164,6 @@ figure.snip1477.hover figcaption {
   opacity: 1;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+}
+.webContentCard {
 }

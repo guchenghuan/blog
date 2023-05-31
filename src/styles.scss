@@ -147,3 +147,17 @@ table {
   text-align: "center";
   font-size: 25px;
 }
+
+.router-enter {
+  position: fixed;
+  opacity: 0;
+  transition: left 1s;
+}
+.router-enter-active {
+  position: relative;
+  opacity: 0; /*js执行到到timeout函数后再出现，防止页面闪烁*/
+}
+.router-exit-active {
+  position: relative;
+  z-index: 1000;
+}

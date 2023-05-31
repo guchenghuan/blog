@@ -8,15 +8,12 @@
  */
 import React, { FC } from "react";
 import styles from "./styles.module.scss";
-
 const Left: FC = () => {
   return (
     <div className={styles.leftCard}>
       <a href="/home">IMT的首页</a>
-
-      <a href="/say">一些想法</a>
-
       <a href="/about">关于IMT</a>
+      <a href="/say">一些想法</a>
     </div>
   );
 };
