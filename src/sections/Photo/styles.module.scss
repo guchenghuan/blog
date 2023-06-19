@@ -1,0 +1,98 @@
+.contact {
+  background-color: #000;
+  background-image: url("../../assets/screenshots/about.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  .content {
+    max-width: 1100px;
+    margin: 0 auto;
+    transition: padding 0.3s, transform 0.4s;
+    .page {
+      position: relative;
+      min-height: calc(100vh - 300px);
+      .ant-image-mask {
+        display: none !important;
+      }
+      .root {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        .photoColumn {
+          display: inline-block;
+          vertical-align: top;
+          margin: 0 6px;
+          font-size: 0;
+          width: calc(33.33333% - 12px);
+          max-width: 300px;
+          div {
+            position: relative;
+            margin: 10px 0;
+            .photoDesc {
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              max-width: 100%;
+              padding: 8px;
+              font-size: 18px;
+              color: #eee;
+              opacity: 0;
+              transition: opacity 0.3s;
+              .photoDate {
+                font-size: 12px;
+              }
+              p {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                text-align: right;
+                padding-top: 3px;
+                text-shadow: 0 0 1px #000;
+              }
+            }
+            img {
+              position: relative;
+              width: 100%;
+              cursor: pointer;
+              transform-origin: 0 0;
+              transition: opacity 0.3s;
+              border-radius: 10px;
+            }
+            &:hover {
+              .photoDesc {
+                opacity: 1;
+              }
+              -webkit-transform: translateY(-2px);
+              -ms-transform: translateY(-2px);
+              transform: translateY(-2px);
+              -webkit-transition: all 0.5s ease-out;
+              transition: all 0.5s ease-out;
+            }
+          }
+        }
+        .photoColumn3 {
+          width: calc(33.3333% - 12px);
+        }
+        .endLine:after {
+          content: "终";
+          font-size: 20px;
+          position: absolute;
+          padding: 0 10px;
+          left: 50%;
+          color: #e5e5e5;
+          background-color: #e8e7e700;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 786px) {
+    & {
+      .photoColumn {
+        width: 100% !important;
+      }
+    }
+  }
+}

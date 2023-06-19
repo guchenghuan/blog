@@ -2,7 +2,7 @@
  * @Author: guchenghuan guchenghuan@xiaohongshu.com
  * @Date: 2023-05-23 20:59:59
  * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
- * @LastEditTime: 2023-05-26 16:28:17
+ * @LastEditTime: 2023-06-17 16:57:49
  * @FilePath: /me/src/sections/Home/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -96,14 +96,14 @@ const Right: FC = () => {
                 <a href="https://weibo.com/u/5874458139">
                   <img src={weibo} alt="weibo" className={styles.contactImg} />
                 </a>
-                <a href="https://github.com/IMT-happy">
+                <a href="https://github.com/guchenghuan">
                   <img
                     src={github}
                     alt="github"
                     className={styles.contactImg}
                   />
                 </a>
-                <a href="https://github.com/IMT-happy">
+                <a href="https://github.com/guchenghuan">
                   <Tooltip
                     placement="top"
                     color={"rgba(255, 255, 255, 0)"}
