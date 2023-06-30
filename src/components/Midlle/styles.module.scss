@@ -16,6 +16,13 @@ figure.snip1477 {
   background-color: #000000;
   height: 220px;
   border-radius: 10px;
+  &:hover {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
 }
 figure.snip1477 *,
 figure.snip1477 *:before,

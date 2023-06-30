@@ -4,7 +4,7 @@ import Section from "../../components/Section";
 import Title from "../../components/Title";
 import styles from "./styles.module.scss";
 import { detectMobile } from "../../utils";
-import Back from "../../components/BackHome";
+import Left from "../../components/left";
 
 const isMobile = detectMobile();
 
@@ -14,7 +14,8 @@ const Contact = () => (
     className={styles.contact}
     style={{ backgroundAttachment: isMobile ? "initial" : "fixed" }}
   >
-    <Back />
+    <Left />
+    <div></div>
     <Title tag="h4" style={{ textAlign: "left" }}>
       与自己和解 👨‍⚕️
     </Title>

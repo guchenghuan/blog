@@ -40,6 +40,8 @@
   }
 }
 .contact {
+  display: flex;
+  justify-content: center;
   background-color: #000;
   background-image: url("../../assets/screenshots/about.png");
   background-attachment: fixed;
