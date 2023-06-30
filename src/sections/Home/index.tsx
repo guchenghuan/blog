@@ -2,7 +2,7 @@
  * @Author: guchenghuan guchenghuan@xiaohongshu.com
  * @Date: 2023-05-23 20:59:59
  * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
- * @LastEditTime: 2023-05-24 11:11:34
+ * @LastEditTime: 2023-06-30 15:25:10
  * @FilePath: /me/src/sections/Home/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -32,12 +32,6 @@ const Home: FC = () => {
     <section id="home" className={styles.home}>
       <Row className={styles.content}>
         <Col span={24} md={15} className={styles.intro}>
-          {/* <p>我是海怪，</p>
-          <p>
-            目前在<span className={styles.zijie}> 字节</span>
-            <span className={styles.tiaodong}>跳动</span>
-            ，主用 <span className={styles.react}> React </span>。
-          </p> */}
           <p>喜欢设计 💅，</p>
           <p>
             偶尔
