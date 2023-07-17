@@ -8,14 +8,29 @@
  */
 import React, { FC } from "react";
 import styles from "./styles.module.scss";
+import { useLocation } from "react-router";
+
 const Left: FC = () => {
+  const location = useLocation();
+  const path = location.pathname;
+
   return (
     <div className={styles.leftCard}>
-      <a href="/home">IMT的首页</a>
-      <a href="/about">关于IMT</a>
-      <a href="/say">一些想法</a>
-      <a href="/nav">前端导航</a>
-      <a href="/photo">IMT的影集</a>
+      <a href="/home" style={{ color: path === "/home" ? "#1677ff" : "" }}>
+        IMT的首页
+      </a>
+      <a href="/about" style={{ color: path === "/about" ? "#1677ff" : "" }}>
+        关于IMT
+      </a>
+      <a href="/say" style={{ color: path === "/say" ? "#1677ff" : "" }}>
+        一些小想法
+      </a>
+      <a href="/nav" style={{ color: path === "/nav" ? "#1677ff" : "" }}>
+        前端工具
+      </a>
+      <a href="/photo" style={{ color: path === "/photo" ? "#1677ff" : "" }}>
+        生活的影集
+      </a>
     </div>
   );
 };

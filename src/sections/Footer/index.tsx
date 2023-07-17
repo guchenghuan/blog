@@ -1,3 +1,11 @@
+/*
+ * @Author: guchenghuan guchenghuan@xiaohongshu.com
+ * @Date: 2023-05-23 20:59:59
+ * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
+ * @LastEditTime: 2023-07-03 19:08:46
+ * @FilePath: /me/src/sections/Footer/index.tsx
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import React from "react";
 import { Tooltip } from "antd";
 import Paragraph from "../../components/Paragraph";
@@ -48,11 +56,11 @@ const Footer = () => (
         </Tooltip>
       ))}
     </div>
-    {/* <p className={styles.record}>
+    <p className={styles.record}>
       <a rel="noreferrer" target="_blank" href="https://beian.miit.gov.cn/">
-        粤ICP备2021095802号
+        苏ICP备2023021062号
       </a>
-    </p> */}
+    </p>
   </footer>
 );
 

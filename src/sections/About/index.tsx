@@ -2,7 +2,7 @@
  * @Author: guchenghuan guchenghuan@xiaohongshu.com
  * @Date: 2023-05-23 20:59:59
  * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
- * @LastEditTime: 2023-06-30 14:50:38
+ * @LastEditTime: 2023-07-03 20:49:56
  * @FilePath: /me/src/sections/About/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -41,7 +41,7 @@ const About = () => (
         <HighLight>要做对且有意义的事！🌟</HighLight>
         <br />
         人生路很长，要活出自己，还要精彩👉{" "}
-        <span className={styles.justForFun}>DO Meaningful Thing~</span>
+        <span className={styles.justForFun}>DO Meaningful Things~</span>
       </Paragraph>
     </Fade>
 
