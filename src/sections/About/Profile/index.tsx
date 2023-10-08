@@ -2,7 +2,7 @@
  * @Author: guchenghuan guchenghuan@xiaohongshu.com
  * @Date: 2023-05-23 20:59:59
  * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
- * @LastEditTime: 2023-05-26 16:07:28
+ * @LastEditTime: 2023-10-08 17:54:54
  * @FilePath: /me/src/sections/About/Profile/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -34,8 +34,9 @@ const Profile = () => {
             一个 <HighLight>测试 / 测试开发 / 前端开发</HighLight>{" "}
             ，江苏盐城人。 先后在 <HighLight>携程 @ 上海 </HighLight>{" "}
             金融事业部做测试开发，<HighLight>bilibili @ 上海 </HighLight>{" "}
-            主站技术中心做测试开发 / 光呆项目部做前端开发，现在在{" "}
-            <HighLight>小红书 @ 上海</HighLight> 做QA前端开发。
+            主站技术中心做测试开发 ，<HighLight>bilibili @ 上海 </HighLight>{" "}
+            光呆项目部做前端开发，现在在 <HighLight>小红书 @ 上海</HighLight>{" "}
+            做QA前端开发。
           </Paragraph>
           {/* <Paragraph>
             高考之后，飞去 <HighLight>东北大学 @ 沈阳</HighLight> 上了 4
@@ -62,7 +63,7 @@ const Profile = () => {
           <Paragraph>
             <strong style={{ width: "100px" }}>思考：</strong>
             <span>
-              在安静的时候喜欢思考(吾日三省吾身...)。定期重审自己，反思自己哪里做的不好，哪里可以做的更好
+              在安静的时候喜欢思考(吾日三省吾身)。定期重审自己，反思有哪里做的不好，哪里可以做的更好
             </span>
           </Paragraph>
           <Paragraph>

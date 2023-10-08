@@ -84,3 +84,23 @@
   font-size: 25px;
   z-index: 99;
 }
+.findMe {
+  margin-top: 20px;
+  cursor: pointer;
+  .contactImg {
+    width: 30px;
+    height: 30px;
+    &:hover {
+      -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+      transform: translateY(-3px);
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+    }
+  }
+  .subTitle {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -2,7 +2,7 @@
  * @Author: guchenghuan guchenghuan@xiaohongshu.com
  * @Date: 2023-05-23 20:59:59
  * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
- * @LastEditTime: 2023-06-19 15:45:08
+ * @LastEditTime: 2023-10-08 18:03:40
  * @FilePath: /me/src/sections/Home/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -16,9 +16,9 @@ const Left: FC = () => {
 
   return (
     <div className={styles.leftCard}>
-      <a href="/home" style={{ color: path === "/home" ? "#1677ff" : "" }}>
+      {/* <a href="/home" style={{ color: path === "/home" ? "#1677ff" : "" }}>
         IMT的首页
-      </a>
+      </a> */}
       <a href="/about" style={{ color: path === "/about" ? "#1677ff" : "" }}>
         关于IMT
       </a>

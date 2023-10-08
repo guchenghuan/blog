@@ -57,7 +57,7 @@ const Life = () => {
           </span>
         }
         header={[
-          "trip 携程",
+          "Trip 携程",
           <span>
             初出茅庐 <HighLight>测试开发</HighLight>
           </span>,
@@ -90,14 +90,14 @@ const Life = () => {
           </span>
         }
         header={[
-          "red 小红书",
+          "Red 小红书",
           <span className={styles.position}>
             入职 <HighLight>小红书</HighLight> @{" "}
             <span className={styles.typed} ref={el} />
           </span>,
         ]}
         content={[
-          "TypeScript , React , VUE , Puppeteer , nodejs , MongoDB , GoLang",
+          "TypeScript , React , VUE , Puppeteer , nodejs , MongoDB , JAVA",
         ]}
       />
       <TimelineHeader>未来</TimelineHeader>
