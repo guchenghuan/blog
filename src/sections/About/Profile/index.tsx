@@ -2,7 +2,7 @@
  * @Author: guchenghuan guchenghuan@xiaohongshu.com
  * @Date: 2023-05-23 20:59:59
  * @LastEditors: guchenghuan guchenghuan@xiaohongshu.com
- * @LastEditTime: 2023-10-08 17:54:54
+ * @LastEditTime: 2023-10-09 10:39:13
  * @FilePath: /me/src/sections/About/Profile/index.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -90,11 +90,10 @@ const Profile = () => {
       <Col
         lg={{ span: 5, order: 3 }}
         span={24}
-        order={2}
+        order={1}
         className={styles.name}
       >
-        <p>戚</p>
-        <p>容</p>
+        <p style={{ fontSize: "9em" }}>IMT</p>
       </Col>
     </Row>
   );
