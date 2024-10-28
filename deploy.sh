@@ -10,14 +10,15 @@ npm run build
 cd build
 
 # if you are deploying to a custom domain
-echo 'github.yanhaixiang.com' > CNAME
+# echo 'github.yanhaixiang.com' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:haixiangyan/haixiangyan.github.io.git master
+# git push -f git@github.com:haixiangyan/haixiangyan.github.io.git master
+git push -f git@github.com:guchenghuan/blog.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages

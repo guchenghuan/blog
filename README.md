@@ -10,3 +10,5 @@
 # 我的个人网站
 
 Welcome！请看 [http://guchenghuan.com](http://guchenghuan.com) 。
+
+sh deploy.sh
